@@ -1,0 +1,99 @@
+*{
+    font-family: sans-serif;
+}
+header {
+    height: 10%;
+    width: 100%;
+    background-color: grey;
+}
+
+h1 {
+   padding-top: 15px;
+   padding-left: 15px;
+}
+
+ul{
+    background-color: rgba(0, 0, 0, 0.719);
+    margin-top: 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    border-right:1px solid #bbb;
+  }
+
+li a{
+  display: inline-block;  
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+    
+}
+
+.active {
+    background-color: #4CAF50;
+  }
+
+article {
+    float: left;
+    width: 70%;
+    margin-left: 10px;
+    background-color: white;
+    height: 500px;
+  }
+
+article  h2 {
+    color: rgb(34, 34, 151);
+    padding-left: 10px;
+    margin-bottom: 0px;
+  }
+
+  
+ article p {
+    margin-top: 0px;
+    padding-left: 10px;
+    margin-right: 10pc;
+
+  }
+
+  div {
+    float: left;
+    height: 500px;
+    width: 29%;
+    background-color: rgb(175, 170, 170);
+   
+  }
+
+ div span {
+    text-align: start;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(34, 34, 151);
+  }
+
+  div p {
+     margin-top: 0px;
+     padding-top: 0px;
+     margin-left: 30px;
+
+  }
+
+  footer {
+      margin-top: 0px;
+      margin-right: 5px;
+      float: right;
+      height: 10%;
+      width: 100%;
+      background-color: rgb(175, 170, 170);
+  }
+
+  footer p {
+      float: right;
+      padding-top: 15px;
+      margin-right: 50px;
+  }

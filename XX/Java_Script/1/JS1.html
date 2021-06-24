@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Java_Script</title>
+        <script>
+
+            function validate() {
+                var fname = document.getElementById('fname').value;
+                console.log("fname: "+fname );
+               
+                var age = document.getElementById('age').value;
+                console.log("age: "+age );
+
+                var weight = document.getElementById('weight').value;
+                console.log("weight: "+weight );
+
+                if (age >=5 && age <=7) 
+                {
+
+                    if (weight>=15 && weight <=20) 
+                    {
+                        document.getElementById('result').innerHTML = "<P>Hello " +fname+ "!!! Your weight is Perfect";
+					}
+
+                    else if(weight > 20)
+                    {
+					    document.getElementById("result").innerHTML = "Hello " + " " + name + " " + "your weight is greater than the recommended value of" +weight+  " KG at age of" + age;
+                    }
+                        
+                    else
+                    {
+                        document.getElementById('result').innerHTML = "<P>Hello " +fname+ " Your weight is less than recommended value of " +weight+ " KG at the age of " +age;
+					}
+                }
+
+                else if (age>= 8 && age <= 10) 
+                {
+                    if (weight>=21 && weight <=25) 
+                    {
+                        document.getElementById('result').innerHTML = "<P>Hello " +fname+ "!!! Your weight is Perfect";
+                    }
+                    
+                    else if(weight > 25)
+                    {
+                        document.getElementById("result").innerHTML = "Hello " + " " + name + " " + "your weight is greater than the recommended value of" +weight+  " KG at age of" + age;
+					}
+
+                    else
+                    {
+						document.getElementById('result').innerHTML = "<P>Hello " +fname+ " Your weight is less than recommended value of " +weight+ " KG at the age of " +age;
+					}
+                }
+                
+                else if (age >= 11 && age <= 15) 
+                {
+                    if (weight >=26 && weight <=30) 
+                    {
+                        document.getElementById('result').innerHTML = "<P>Hello " +fname+ "!!! Your weight is Perfect";
+                    }
+                    
+                    else if(weight > 30)
+                    {
+                        document.getElementById("result").innerHTML = "Hello " + " " + name + " " + "your weight is greater than the recommended value of" +weight+  " KG at age of" + age;
+					}
+
+                    else
+                    {
+						document.getElementById('result').innerHTML = "<P>Hello " +fname+ " Your weight is less than recommended value of " +weight+ " KG at the age of " +age;
+					}
+                }
+                
+                else if (age >= 16 && age <= 20) 
+                {
+                    if (weight >=31 && weight <=40) 
+                    {
+                        document.getElementById('result').innerHTML = "<P>Hello " +fname+ "!!! Your weight is Perfect";
+                    }
+                    
+                    else if(weight > 40)
+                    {
+                        document.getElementById("result").innerHTML = "Hello " + " " + name + " " + "your weight is greater than the recommended value of" +weight+  " KG at age of" + age;
+					}
+
+                    else
+                    {
+						document.getElementById('result').innerHTML = "<P>Hello " +fname+ " Your weight is less than recommended value of " +weight+ " KG at the age of " +age;
+                    }
+                    
+                    
+				}
+
+                else
+                {
+					document.getElementById("result").innerHTML = "PLEASE GIVE VALID INPUTS"; 
+				}
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="container">
+            <label for="fname">Name <input style="margin-left: 15px;" type="text" id="fname"><br><br></label> 
+            
+            <label for="age">Age <input style="margin-left: 30px;" type="number" id="age"><br><br></label>
+        
+            <label for="weight">Weight <input style="margin-left: 13px;" type="number" id="weight"><br><br></label>
+
+            <p><input type="submit" value="Submit" onclick="validate()"></p>
+        </div>
+
+        <div id="result"></div> 
+    </body>
+</html>
+
+

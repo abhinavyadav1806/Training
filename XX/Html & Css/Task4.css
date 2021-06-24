@@ -1,0 +1,134 @@
+﻿
+.head {
+   width: 100%;
+   background-color: gray;
+}
+
+#header{
+    margin-left: 10pc;
+}
+
+h1 {
+    color: blue;
+    margin-bottom: 0px;
+
+}
+
+.nav{
+    margin-left: 10pc;
+    width: 78.5%;
+    background-color: lightblue;
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
+li {float: left;}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.container{
+    background-color:rgb(230, 230, 230);
+    width: 100%;
+}
+
+.box{
+    width: 57%;
+    background-color: white;
+    margin: 0 auto;
+    height: 78%;
+}
+.div1{
+    float: left;
+    width: 65%;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+#welcome{
+    font: icon;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#links{
+    color: rgb(255, 4, 213);
+}
+
+.topic{
+    padding-left: 15px;
+    
+}
+
+#browser{
+    color: cornflowerblue;
+    font-weight: 400;
+}
+
+.div2 {
+    float: left;
+    width: 30%;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#latest {
+    font: icon;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#launched{
+    font-style: normal;
+    color: darkcyan;
+}
+
+#new_web{
+    font-style: normal;
+    color: darkcyan;
+}
+
+#useful_links{
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+}
+
+.des{
+    list-style-type: none;
+    padding-left: 0px;
+    float: left;
+} 
+
+#link{
+    color: rgb(223, 79, 199);
+}
+
+.footer{
+    background-color:rgb(230, 230, 230);
+    width: 100%;
+    margin-top: 0px;
+}
+
+#content{
+    width: 78.5%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 132, 255);
+    clear: both;
+}
+
+.searchar{
+    margin-bottom: 0;
+    position: relative;
+}
+

@@ -1,0 +1,27 @@
+1. make menu bar background black and menu items white.
+
+2. on hover menu item background color changes to green.
+
+3. fix menu bar so that only on hover submenu appears.
+
+4. make background color #66CD66 to first span tag inside a tag within third p tag.
+
+5. make underline element with class underline.
+
+6. make font-style italics to all span tags which are not inside a tag.
+
+7. make background color #6670CD third second p tag.
+
+8. on hover all a tags except menu links should have background #F5F400 and color #ffffff.
+
+9. fix footer menu style.
+
+10. on hover second widget class should have background #F53B00.
+
+11. make all visited links color #2207FF.
+
+12. second link of third widget class element should have background color #BE0505 and color #ffffff.
+
+13. first link of every widget class should have underline on hover, rest all links in sidebar section should not have any underline at all.
+
+14. make page look better using proper font family and font style on different sections.

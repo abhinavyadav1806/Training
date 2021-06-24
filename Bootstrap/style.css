@@ -1,0 +1,47 @@
+#picup
+{
+    height: 240px;
+    width: 318px;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 24%;
+    border-top-left-radius: 10%;
+    
+}
+
+#borderup
+{
+    border: 5px solid red;
+    height: 247px;
+    width: 357px;
+    margin-left: 140px;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+#leftpic
+{
+    height: 270px;
+    width: 318px;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 24%;
+    border-top-left-radius: 10%;
+}
+#border
+{
+    border: 5px solid red;
+    height: 252px;
+    width: 57%;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+#bgimg
+{
+    background-image: url(/home/cedcoss/Desktop/Training/Html&Css/task2/e.jpg);
+}

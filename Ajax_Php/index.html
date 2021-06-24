@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Quick Task</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+
+        <script>
+            $(document).ready(function(){
+                $('#btn').click(function(){
+                   $.ajax({
+                        url: 'index.php',
+                        type: 'POST',
+                        dataType: 'json',
+                        // success: function(msg)
+                        // {
+                        //     //debugger;
+                        //     //var data =JSON.stringify(msg);
+                        //     $(".answer").append('<div>' +data + '</div>');
+                        // },
+                        success: function(data) 
+                        {
+                            for(var i=0;i<data.length;i++)
+                            {
+                                var Html='<tr id="table">\
+                                    <td>'+data[i].Name+'</td>\
+                                    <td>'+data[i].phone+'</td>\
+                                    <td>'+data[i].email+'</td>\
+                                    <td>'+data[i].location+'</td>\
+                                </tr>';
+                                $('.answer').append(Html);
+                            }    
+                        },
+                        error: function()
+                        {
+                            alert("error")
+                        }
+                   });
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <input id="btn" type="button" value="Click Me">
+        <div class="answer"></div>
+    </body>
+</html>

@@ -1,0 +1,188 @@
+*
+{
+    font-family: sans-serif;
+}
+
+#container{
+    width: 100%;
+    background-color: rgba(46, 41, 41, 0.795);
+    overflow: hidden;
+}
+
+.link {
+    list-style-type: none;
+    overflow: hidden;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#h1_welcome{
+    text-align: center;
+    color: rgb(245, 236, 236);
+}
+
+#heading{
+    font-weight: 300;
+}
+
+.graphic{
+    color: yellowgreen;
+    margin-left: 20pc;
+}
+
+.icons:last-child{
+    border-right: none;
+}
+
+h3 {
+    margin: 2px;
+    color: white;
+}
+
+p{
+    margin: 2px;
+    color: white;
+    font-size: 15px;
+}
+
+.icons{
+    border-right: 1px solid white;
+    display: inline-block;
+    padding: 20px 80px;
+    text-align: center;
+}
+
+.button{
+    margin: 50px 40pc 50px;
+}
+
+.submit{
+    background-color: inherit;
+    color: yellowgreen;
+    font-size: 20px;
+    border: 2px solid yellowgreen;
+    border-radius: 15px;
+    padding: 8px 50px;
+}
+
+#body{
+    width: 100%;
+    background-color: thistle;
+   
+}
+
+#left{
+    width: 50%;
+    float: left;
+    background-color: white;
+    height: 41.5%;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    padding-top: 20px;
+    margin-left: 38%;
+}
+
+h2{
+    text-align: center;
+    margin: 0px;
+    font-weight: 500;
+    padding: 2px;
+}
+
+.a{
+    text-align: center;
+    color: black;
+}
+
+#right{
+    width: 50%;
+    float: right;
+    background-color: white;
+}
+
+#footer{
+    background-color: yellowgreen;
+    width: 100%;
+    padding: 20px;
+}
+
+h6{
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+    font-weight: 300;
+    margin-top: 20pc;
+    text-align: center;
+}
+
+#detail{width: 100%;}
+
+
+label {  
+    color:white;
+    display: block;
+    font-weight: 500;
+    margin: 0px;
+}
+
+input[type=text] {
+    width: inherit;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: inherit;
+    margin-bottom: 20px;
+    display: block;
+}
+  
+input[type=email]{ 
+    
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: inherit;
+    margin-bottom: 20px;
+    display: block;
+}
+
+textarea{
+    background-color: inherit;
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: left;
+}
+
+#sub{
+    background-color: inherit;
+    color: white;
+    font-size: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 8px 70px;
+}
+
+#name{float: left;
+    width: 45%;
+}
+
+#email{float: left;
+    width: 40%;
+}
+

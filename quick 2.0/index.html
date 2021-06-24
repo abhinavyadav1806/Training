@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Quick Task</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+
+        <script>
+            $(document).ready(function(){
+                $('#btn').click(function(){
+                   $.ajax({
+                        url: 'index.php',
+                        type: 'POST',
+                        // dataType: 'json',
+                        // success: function(msg)
+                        // {
+                        //     //debugger;
+                        //     //var data =JSON.stringify(msg);
+                        //     $(".answer").append('<div>' +data + '</div>');
+                        // },
+                        success: function(data) 
+                        {
+                            console.log(data);
+
+                            var html='<table>\
+                            <th>name</th>\
+                            <th>name</th>\
+                            <th>name</th>\
+                            <th>name</th>\
+                            <tr>';
+                            var res = data.split(",");
+                            console.log(res);
+                            for(var i=0;i<res.length-1;i++)
+                            {
+                                html+='<td>'+res[i]+'</td>';
+                                if(i==3||i==7){
+                                    html+='</tr>';
+
+                                }
+                               
+                                // $('.answer').append(Html);
+                            }
+                            html+='<tr></table>'
+                            $('.answer').append(html);    
+                        },
+                        error: function()
+                        {
+                            alert("error")
+                        }
+                   });
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <input id="btn" type="button" value="Click Me">
+        <div class="answer"></div>
+    </body>
+</html>

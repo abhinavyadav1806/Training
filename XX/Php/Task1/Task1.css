@@ -1,0 +1,12 @@
+#table
+{
+    font-family:Verdana;
+    margin-left: 60px;
+    border:1px solid black;
+}
+
+td
+{
+    border:1px solid black;
+    padding: 10px;
+}

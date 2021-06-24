@@ -1,0 +1,449 @@
+#oslo
+{
+	padding-left: 50px;
+	font-family: arial narrow;
+	font-weight: normal;
+	font-size: 45px;
+	display: inline;
+	margin: auto;
+	color:  #ff0033;
+}
+
+#navbar
+{
+	float: right;
+}
+
+#menu
+{
+	padding: 10px;
+}
+
+nav
+{
+  	height: 20px;
+  	font-size: 12px;
+}
+
+nav a 
+{
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#back
+{
+	background-color: #ff0080;
+	display: inline;
+	width: 40px;
+	padding: 10px;
+	border-radius: 50px;
+}
+
+#btn
+{
+	font-size: 12px;
+	color: white;
+}
+
+#banner 
+{
+  position: static;
+}
+
+#image
+{
+	background-image: url(/home/cedcoss/Desktop/Training/Html&Css/task2/a.jpg);
+	width: 100%;
+	height: 35pc;
+}
+
+#colour
+{
+	background-color: red;
+	height: 35pc;
+	width: 100%;
+	opacity: 0.5;
+}
+
+#centertext 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+#unleash
+{
+  	font-family: arial;
+  	font-weight: lighter;
+  	font-size: 40px;
+  	color: white;
+  	text-align: center;
+}
+
+.p
+{
+	text-align: center;
+	color: white;
+}
+
+#learnmore
+{
+	background-color: white;
+	border: none;
+	border-radius: 50px;
+  	color: #e60000;
+  	padding: 10px 30px;
+  	display: block;
+  	font-size: 14px;
+  	margin: auto;
+  	margin-top: 20px;
+}
+
+#about
+{
+	overflow: hidden;
+	margin: 50px;
+	width: 100%;
+}
+
+#left
+{
+	float: left;
+	color: grey;
+	width: 40%;
+}
+
+.abouth
+{
+	font-weight: lighter;
+	color: #de3b57;
+	font-size: 40px;
+}
+
+.para
+{
+	margin: 5px;
+}
+
+#x
+{
+	float: left;
+	width: 36%;
+}
+
+#right
+{
+	position: relative;
+	width: 90%;
+	background-size:500px;
+	float: left;
+    padding-top: 20px;
+    height: 300px;
+    margin-top: 40px;
+    z-index: 10;
+    background-image: url(/home/cedcoss/Desktop/Training/Html&Css/task2/c.jpeg);
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+#border
+{
+	position: absolute;
+    z-index: 100;
+    margin-bottom: 200px;
+    margin-left: 60px;
+    border: 6px solid rgba(230, 42, 120);
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    height: 300px;
+    width: 27%;
+}
+
+#features h2
+{
+	color:#ff0033; 
+	text-align: center;
+	font-weight: lighter;
+	font-size: 50px;
+}
+
+.container 
+{
+	text-align: center;
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+#subsection
+{
+	overflow: hidden;
+	padding-top: 70px;
+	margin: 50px;
+	width: 100%;
+}
+
+#x2
+{
+	float: left;
+	width: 50%;
+	height: 350px;
+}
+
+
+#leftpic
+{
+	position: absolute;
+	width: 30%;
+	background-size:500px;
+	float: left;
+    padding-top: 20px;
+    height: 300px;
+    margin-top: 40px;
+    z-index: 100;
+    background-image: url(/home/cedcoss/Desktop/Training/Html&Css/task2/e.jpg);
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+} 
+
+
+#border2
+{
+	position: relative;
+    z-index: 10;
+    margin-bottom: 200px;
+    margin-left: 60px;
+    border: 6px solid rgba(230, 42, 120);
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    height: 300px;
+    width: 56%;
+}
+
+#dashboard
+{
+	width: 100%;
+	background-color: #e4d8df;
+}
+
+.aboutdash
+{
+	font-weight: lighter;
+	text-align: center;
+	margin: 0px;
+	color: #de3b57;
+	font-size: 40px;
+}
+
+#macpic
+{
+	height: 70%;
+	width: 60%; 
+	margin-top: 50px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.maccaption
+{
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.maccaption1
+{
+	text-align: center;
+}
+
+.aboutreview
+{
+	text-align: center;
+	margin: 0px;
+	font-size: 40px;
+}
+
+#div
+{
+	width: 100%;
+}
+
+.pinktext
+{
+	font-size: 55px;
+	color: #de3b57;
+}
+
+.reviews
+{
+	text-align: center;
+	margin: 25px;
+    width: 28%;
+    height: 270px;
+    float: left;
+	border: 1px solid black;
+	box-shadow: 5px 10px gray;
+}
+
+.face 
+{
+	width:100px;
+ 	border-radius: 50%;
+}
+
+#signup
+{
+	height: 800px;
+	background-color: rgb(36,39,37);
+	color: white;
+	clear: both;
+}
+
+#didyou
+{
+	background-image: linear-gradient(to right,rgb(250,0,78),rgb(229,0,158));
+	height: 150px;
+}
+
+#didyou p
+{
+	width: 65%;
+	float: left;
+	color: white;
+	margin-top: 70px;
+	font-size: 25px;
+	margin-left: 30px;
+
+}
+#didyou button
+{
+	width: 20%;
+	margin-left: 29px;
+	margin-top: 70px;
+	float: left;
+	padding: 16px 14px;
+	background-color: white;
+	color: rgb(229,0,158);
+	border: 0px;
+    border-radius: 20px;
+}
+#signup img
+{
+	height: 650px;
+	width: 100%;
+	opacity: 0.1;
+}
+
+#getcreative 
+{
+	float: left;
+	width: 45%;
+	margin-top: -500px;
+
+}
+#getcreative h2
+{
+	font-size: 55px;
+	font-weight: 1;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#getcreative p
+{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#form
+{
+	margin-left: 70px;
+	float: left;
+	width: 45%;
+	margin-top: -450px;
+	font-size: 25px;
+	margin-left: 800px;
+}
+
+input[type="text"]
+{
+	padding: 5px 90px ;
+}
+
+input[type="email"]
+{
+	padding: 5px 90px ;
+}
+
+#message
+{
+	width: 170px ;
+	height: 50px;
+}
+
+#form button
+{
+	padding: 5px 140px;
+	border-radius: 12px;
+	color: white;
+	background-color:#FF006F;
+	border: 0px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+footer
+{
+	clear: both;
+}
+
+#logo
+{
+	float: left;
+	padding: 20px 100px;
+}
+
+#tagname
+{ 
+	text-align: center;
+	float: left;
+	padding: 10px 200px;
+}
+
+#tagname p
+{
+	margin: 0px;
+}
+
+#tagname span
+{
+	color: #FF006F;
+	text-align: center;
+	margin: auto;	
+}
+
+#linkto
+{ 
+	text-align: center;
+	float: left;
+	padding: 10px 100px;
+}
+
+#linkto a
+{
+	float: right;
+	padding: 14px 5px;
+}

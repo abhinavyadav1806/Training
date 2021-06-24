@@ -1,0 +1,60 @@
+.navigation li 
+{
+	display: block;
+	position: relative;
+	float: left;
+	background:rgb(116, 226, 116);
+    margin-left: 5px;
+}
+
+
+.navigation li ul 
+{ 
+	display: none; 
+}
+
+.navigation li a 
+{
+	padding: 13px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation li a:hover 
+{ 
+	background:#cccccc; 
+}
+
+.navigation li:hover > ul 
+{
+	display: block;
+	position: absolute;
+}
+  
+.navigation li:hover li 
+{ 
+	float: none; 
+}
+  
+.navigation ul li:hover a 
+{ 
+	background: #205c73;  
+}
+  
+.navigation li:hover li a:hover 
+{ 
+	background: #999; 
+}
+
+.navigation ul ul 
+{
+	left: 55%;
+	top: 10%;
+}
+  
+ul:after
+{ 
+	clear: both; 
+}
+
